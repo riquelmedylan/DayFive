@@ -11,7 +11,7 @@ function reduceBlur() {
 }
 function increaseCount() {
   if (count != 100) {
-    timer.textContent = `${count + 1}%`;
+    timer.textContent = `${count++}%`;
     count = Number(timer.textContent.slice(0, -1));
   }
 }
